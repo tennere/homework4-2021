@@ -28,7 +28,7 @@ body{
   color: #000000;
   font-size: 16px;
   margin: 1.2em;
-  background-size: cover ;
+  background-size: cover;
   background-position: center;
   /*Req 1*/
   font-family: 'Andika', sans-serif;
@@ -41,7 +41,6 @@ body{
 
 h1{
   color: #B21F50;
-  font-size: 2em;
   /*Req 2*/
   font-size: 32px;
   text-align: center;
@@ -135,8 +134,7 @@ tr:nth-child(even) {
 }
 
 tr:hover{
-  background-color: rgba(126, 8, 37, 0.25)
-  
+  background-color: rgba(126, 8, 37, 0.25); 
 }
 
 /* I gave you the selector, but not the property-value pair. 
