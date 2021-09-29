@@ -71,8 +71,35 @@ a{
   border-color: #417243;
 }
 
+
 /*Req 6*/
 
+table{
+  border: 5px solid #000000;
+  border-radius: 50px;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+/* I gave you the selector, but not the property-value pair. 
+You can use Inspect Element or your editor to find selectors. */
+thead tr:first-child th:first-child{
+  border-top-left-radius: 50px;
+}
+
+thead tr:last-child th:last-child{
+  border-top-right-radius: 50px;
+}
+
+tbody tr:last-child th:first-child{
+  border-bottom-left-radius: 50px;
+}
+
+tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 50px;
+}
+
+/* Req 7 */
 td{
   text-align: center;
   vertical-align: middle;
@@ -92,18 +119,6 @@ td{
   text-transform: uppercase;
 }
 
-/* ROUNDED BORDERS
-tr:first-of-type th.colhead:first-of-type {
-  border-top-left-radius: 50px;
-}
-
-tr:first-of-type th.colhead:last-of-type {
-  border-top-right-radius: 50px;
-} */
-
-
-
-
 th {
   text-align: center;
   vertical-align: middle;
@@ -117,12 +132,6 @@ th {
   border-color: #000000;
 }
 
-table{
-  border: 5px solid #000000;
-  border-radius: 50px;
-  margin-left: auto;
-  margin-right: auto; 
-}
 
 tr:nth-child(odd) {
   background: transparent;
@@ -137,28 +146,7 @@ tr:hover{
   background-color: rgba(126, 8, 37, 0.25); 
 }
 
-/* I gave you the selector, but not the property-value pair. 
-You can use Inspect Element or your editor to find selectors. */
-thead tr:first-child th:first-child{
-  border-top-left-radius: 50px;
-}
-
-thead tr:last-child th:last-child{
-  border-top-right-radius: 50px;
-}
-
-tbody tr:last-child th:first-child{
-  border-bottom-left-radius: 50px;
-}
-
-tbody tr:last-child td:last-child {
-/* tbody tr:last-child th:last-child{ */
-  border-bottom-right-radius: 50px;
-}
-
-/*Add selectors and rules here*/
-
-
+/* Req 8 */
 footer{
   background-color:#000000;
   text-align:center;
